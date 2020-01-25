@@ -10,4 +10,4 @@ The purpose of this assignment is to generate an app that will allow users to cr
 In the end the application should look like this: 
 ![Password Generator Photo](./PasswordGenerator.png) 
 
-Visit:
+Visit:https://ashelynicole.github.io/JavaScript/.
