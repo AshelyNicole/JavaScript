@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel= "stylesheet" href="style.css">
-
+   
     <title>Password Generator</title>
 
 </head>
@@ -15,13 +15,21 @@
 
     <div class="container">
         <h2>Generate a Password</h2>
+        <hr class="border"/>
 
         <div class="passwordform">
-            <input type ="text" name="password" placeholder="Your Secure Password">
-            
-            <button type="button01">Generate Password</button>
-            <button type="button02">Copy to Clipboard</button>
+            <input name="password" id="password" placeholder="Your Secure Password"/>
+            <hr class="border"/>
+            <button type="button" class="button01" id="generatebutton">Generate Password</button>
+            <button type="button" class="button02" id="last_gen">Copy to Clipboard</button>
         </div>
+
+        <div class="previousPasswords">
+            <h3>Passwords Generated:</h3>
+            <br />
+            <div id="last_gen"></div>
+        </div> 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
